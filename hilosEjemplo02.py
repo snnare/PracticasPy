@@ -3,7 +3,7 @@ import time
 
 def function_A():
     print(threading.currentThread().getName()+str('--> Comenzando \n'))
-    time.sleep(2)
+    time.sleep(5)
     print(threading.currentThread().getName()+str('--> Saliendo \n'))
 
 
@@ -15,7 +15,7 @@ def function_B():
 
 def function_C():
     print(threading.currentThread().getName()+str('--> Comenzando \n'))
-    time.sleep(2)
+    time.sleep(10)
     print(threading.currentThread().getName()+str('--> Saliendo \n'))
 
 
